@@ -1,0 +1,306 @@
+
+
+
+
+
+
+header nav {
+  /* flex: 2 1 400px; */
+  padding: 2rem
+ 
+}
+
+
+header nav ul {
+  display:flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 50px;
+  
+ 
+ 
+ 
+}
+
+header nav ul li{
+  padding: 20px 10px;
+  
+
+}
+
+
+li a{
+  color:black;
+  text-decoration:none;
+
+}
+
+
+ #home:hover{
+  background-color:#FFC800;
+ border-radius: 1rem;
+ color: white;
+ transition-duration: 0.5s;
+ }
+
+
+.navbar-brand:hover{
+  transform: scale(1.3);
+
+}
+
+#navbar {
+    position: fixed; /* 固定在畫面上 */
+    top: 0; /* 距離螢幕頂端 0px */
+    left: 0; /* 確保靠左 */
+    width: 100%; /* 讓導覽列佔滿整個寬度 */
+    background-color: white; /* 背景顏色，避免透明 */
+    z-index: 1000; /* 讓導覽列永遠在最上層 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 增加陰影效果，讓它更明顯 */
+}
+
+#home{
+
+font-weight: 800;
+}
+
+
+
+/* nav end */
+
+
+
+
+/* section.backimage {
+ height: 800px; width: 1000px; 
+  background-image: url(./IMG/job562-nunoon-04-a.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+
+} */
+
+
+
+.container{
+ width: 100%;
+ height: 100%; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by OliverZeros */ 
+button {
+  all: unset;
+}
+
+.button {
+  position: relative;
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  border-radius: 9999px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Segoe UI;
+  font-size: 1.2rem;
+  font-weight: 640;
+  color: #fafaf6;
+  letter-spacing: -0.06em;
+}
+
+.button-item {
+  background-color: transparent;
+  color: #1d1d1f;
+}
+
+.button-item .button-bg {
+  border-color: rgba(255, 208, 116);
+  background-color: rgba(255, 208, 116);
+}
+
+.button-inner,
+.button-inner-hover,
+.button-inner-static {
+  pointer-events: none;
+  display: block;
+}
+
+.button-inner {
+  position: relative;
+}
+
+.button-inner-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(70%);
+}
+
+.button-bg {
+  overflow: hidden;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: transform 1.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button-bg,
+.button-bg-layer,
+.button-bg-layers {
+  display: block;
+}
+
+.button-bg-layers {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -60%;
+  aspect-ratio: 1 / 1;
+  width: max(200%, 10rem);
+}
+
+.button-bg-layer {
+  border-radius: 9999px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+}
+
+.button-bg-layer.-purple {
+  background-color: rgba(163, 116, 255);
+}
+
+.button-bg-layer.-turquoise {
+  background-color: rgba(23, 241, 209);
+}
+
+.button-bg-layer.-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 208, 116, var(--tw-bg-opacity));
+}
+
+.button:hover .button-inner-static {
+  opacity: 0;
+  transform: translateY(-70%);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.button:hover .button-inner-hover {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    transform 1.4s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 1.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button:hover .button-bg-layer {
+  transition:
+    transform 1.3s cubic-bezier(0.19, 1, 0.22, 1),
+    opacity 0.3s linear;
+}
+
+.button:hover .button-bg-layer-1 {
+  transform: scale(1);
+}
+
+.button:hover .button-bg-layer-2 {
+  transition-delay: 0.1s;
+  transform: scale(1);
+}
+
+.button:hover .button-bg-layer-3 {
+  transition-delay: 0.2s;
+  transform: scale(1);
+}
+
+
+
+
+
+/* donate button CSS */
+ .button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 50px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+} */
+
+ .button-52 {
+    padding: 13px 50px 13px;
+  }
+
+
+
+  #back-to-top{
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:99;
+
+  border-radius:50%;
+  box-shadow: 0px 0px 5px #ccc;
+  margin:17px;
+  background:white;
+}
