@@ -1,0 +1,346 @@
+
+
+
+
+header nav {
+  /* flex: 2 1 400px; */
+  padding: 2rem
+
+ 
+}
+
+
+
+
+
+
+header nav ul {
+  display:flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-right: 50px;
+
+ 
+}
+
+
+
+
+header nav ul li{
+  padding: 20px 10px;
+  
+
+}
+
+
+li a{
+  color:black;
+  text-decoration:none;
+ 
+}
+
+
+#home{
+
+font-weight: 800;
+}
+
+
+ #home:hover{
+  background-color:#FFC800;
+ border-radius: 1rem;
+ color: white;
+ transition-duration: 0.5s;
+ }
+
+.navbar-brand:hover{
+  transform: scale(1.3);
+
+}
+
+
+#navbar {
+    position: fixed; /* 固定在畫面上 */
+    top: 0; /* 距離螢幕頂端 0px */
+    left: 0; /* 確保靠左 */
+    width: 100%; /* 讓導覽列佔滿整個寬度 */
+    background-color: white; /* 背景顏色，避免透明 */
+    z-index: 1000; /* 讓導覽列永遠在最上層 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 增加陰影效果，讓它更明顯 */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 第一頁 */
+
+
+
+.section1{
+position: relative;
+    width: 80%;
+    height: 500px; /* 設定適當的高度 */ 
+    margin: 0 auto;
+}
+   
+
+
+
+
+    
+
+
+
+ 
+
+.section1>.backimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(70%);
+  margin: 2rem;
+  
+}
+
+
+.backimg { 
+  animation: fadeIn 5s; 
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+ 
+
+
+}
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+.backtext{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0 20px;
+  line-height: 1.5;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+
+}
+
+
+
+
+
+
+
+/* CSS */
+ .button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 50px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+} */
+
+ .button-52 {
+    padding: 13px 50px 13px;
+  }
+/* ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+#back-to-top{
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:99;
+
+  border-radius:50%;
+  box-shadow: 0px 0px 5px #ccc;
+  margin:17px;
+  background:white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 第二頁 */
+
+/* h3{
+text-align: left;} */
+
+
+.aboutus{
+  padding: 100px;
+  text-align: center;
+}
+
+
+
+
+.icon1{
+ position:absolute;
+  left: 38%;
+}
+
+
+
+.icon2{
+ position:absolute;
+  left: 38%;
+}
+
+.icon3{
+ position:absolute;
+
+  left: 38%;
+}
+ 
+
+.icon4{
+ position:absolute;
+ 
+  left: 38%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 第三頁 */
+
+
+
+
+#newscolor{
+ background-color:#f5deb3;
+}
+
+.news>h1{
+text-align: center;
+padding: 100px;
+font-weight: 800;
+
+}
+
+
+
+.card:hover{
+  transform: scale(1.2);
+}
+
+.card{
+  box-shadow:0px 0px 10px 5px black;
+}
+
+
+
+
+/* 第四頁 */
+
+.plan-btn{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  font-size:large;
+  font-weight: 500;
+  
+}
+
+.amount-btn{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  font-size: medium;
+   font-weight: 500;
+}
