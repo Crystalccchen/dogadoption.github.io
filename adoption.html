@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 032da7d298b66f3efb897cf1e946afb298fc8fdf
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -227,4 +231,239 @@
 
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawppy-Animals Rescue</title>
+     <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+     <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+     <link rel="stylesheet" href="./adoption.css"
+     <link rel="icon" href="https://www.flaticon.com/free-icons/paw">
+     <!-- <a href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created by Mihimihi - Flaticon</a> -->
+<style>
+        .container {
+            position: relative;
+            width: 25%;
+            padding: 2rem;
+        }
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .container:hover .image {
+            opacity: 0.3;
+        }
+        .container:hover .middle {
+            opacity: 1;
+        }
+        .text {
+            background-color: white;
+            color: orange;
+            font-size: 20px;
+            padding: 10px 32px;
+        }
+    </style>
+    <script>
+        function showRandomContainer() {
+            const containers = document.querySelectorAll('.container');
+            const randomIndex = Math.floor(Math.random() * containers.length);
+            containers.forEach((container, index) => {
+                if (index !== randomIndex) {
+                    container.style.display = 'none';
+                } else {
+                    container.style.display = 'block';
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('button').addEventListener('click', showRandomContainer);
+        });
+    </script>
+
+
+
+</head>
+<body>
+    <header>
+  
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="./homepage .html">
+      <img src="./IMG/paw.png" alt="Logo" style="width: 80px;">
+    </a>
+
+    <!-- 漢堡選單按鈕 -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 選單內容 -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link " id="home" href="./homepage .html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  id="home" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="home" href="#">Adoption</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="home" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="./homepage .html#donate"><button class="button-52">Donate</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- <ul >
+  <a href="http://127.0.0.1:5502/homepage.html"><img src="./IMG/paw.png" style="width: 80px;"  class="ms-5" ></a>
+
+  <li><a href="http://127.0.0.1:5502/homepage.html" class="p-3" id="home">Home</a>      </li>
+  <li><a href="http://127.0.0.1:5502/about%20copy.html" class="p-3" id="home" >About</a>     </li>
+  <li><a href="http://127.0.0.1:5502/adoption.html" class="p-3" id="home">Adoption</a>  </li>
+  <li><a href="http://127.0.0.1:5502/contact.html?FirstName=&Last+Name=&Email=&PhoneNumber=" class="p-3" id="home">Contact</a>   </li>
+ <a href="./homepage.html#donate"><button class="button-52" a href=""> Donate</button></a>
+
+   </ul> -->
+
+  
+    </header>
+
+  
+
+
+    <div class="p-5" style="font-style:oblique; "  >
+        <p class="fs-1" id="title">Looking to add a furry friend to your family?</p>
+    </div>
+
+
+<br><br>
+  
+<!-- <div class="w-75 d-flex flex-wrap  m-auto  bg-primary ">
+
+<div class="container1 m-auto me-3">
+  <img src="./IMG/dog.jpg" alt="Avatar" class="dog img-fluid">
+  <a href="http://127.0.0.1:5502/album%20dog.html"><div class="overlay" >Dog</div>
+</div></a>
+
+
+<div class="container2 m-auto ms-5">
+  <img src="./IMG/cat.jpg" alt="Avatar" class="cat img-fluid">
+  <a href="http://127.0.0.1:5502/album%20cat.html"><div class="overlay">cat</div></a>
+
+</div>
+
+
+
+    </div> -->
+<div class="w-75 d-flex flex-wrap  m-auto   " style="padding: 20px;">
+
+<div class="container1 m-auto "> 
+  <img src="./IMG/dog.jpg" alt="Avatar" class="dog img-fluid ">
+  <a href="./album dog.html">
+    <div class="overlay" >Dog</div>
+</div></a>
+
+
+<div class="container2 m-auto">
+  <img src="./IMG/cat.jpg" alt="Avatar" class="cat img-fluid ">
+  <a href="./album cat.html"><div class="overlay">Cat</div></a>
+
+</div>
+
+
+
+    </div>
+
+
+<br><br>
+
+
+<br><br><br>
+
+
+
+<hr>
+
+    <!-- footer -->
+
+
+
+<div class="d-inline-flex p-3 "> 
+
+
+<div class="p-3">
+<a href=""><img src="./IMG/facebook.svg"> </a>
+</div>
+
+
+<div class="p-3">
+<a href=""><img src="./IMG/instagram.svg"> </a>
+</div>
+
+
+<div class="p-3">
+<a href=""><img src="./IMG/threads-fill.svg"> </a>
+</div>
+
+
+<div class="p-3">
+<a href=""><img src="./IMG/twitter-x.svg"> </a>
+</div>
+
+
+<div class="p-3">
+<a href=""><img src="./IMG/youtube.svg"> </a>
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- back to top -->
+<div id="scroll-here"></div>
+<a id="back-to-top" href="#">
+  <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EAngle Up%3C/title%3E%3Cdesc%3EA line styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='none' stroke='%23202020' stroke-miterlimit='10' stroke-width='2' d='M20 40l11.994-14L44 40' stroke-linejoin='round' stroke-linecap='round'%3E%3C/path%3E%3C/svg%3E" alt="Angle Up" />
+</a>
+
+
+
+
+</body>
+
+>>>>>>> ca67892ac113d42eaab1b6e321643399434840bb
+</html>
+>>>>>>> 032da7d298b66f3efb897cf1e946afb298fc8fdf
